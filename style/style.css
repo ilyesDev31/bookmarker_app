@@ -1,0 +1,130 @@
+:root {
+  --blue: rgb(52,122,185);
+  --red: rgb(219,77,79);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding: 40px 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container > h1 {
+  font-weight: normal;
+  color: #b4b4b4;
+  width: 50%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 740px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.data-box {
+  width: 50%;
+  margin: 1rem auto 0;
+  padding: 30px;
+  background-color: rgb(238, 237, 239);
+}
+.data-box > h1 {
+  font-weight: normal;
+}
+.data-box .form {
+  margin-top: 1.5rem;
+}
+.data-box .form .input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.data-box .form .input-container label {
+  font-weight: 500;
+}
+.data-box .form .input-container input {
+  margin: 10px 0;
+  padding: 8px 10px;
+  border: 1px solid #d5d5d5;
+}
+.data-box .form button {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 10px 20px;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.booklist-container {
+  text-align: left;
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.booklist-container .box {
+  background-color: rgb(238, 237, 239);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.booklist-container .box p {
+  font-size: 1.6rem;
+  color: #5d5d5d;
+}
+.booklist-container .box button {
+  padding: 8px 15px;
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.booklist-container .box button:nth-child(2) {
+  background-color: white;
+  border-color: #d5d5d5;
+  color: #5d5d5d;
+}
+.booklist-container .box button:nth-child(3) {
+  background-color: var(--red);
+  border-color: var(--red);
+  color: white;
+}
+
+.copy {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  color: #bdbbbb;
+}/*# sourceMappingURL=style.css.map */
